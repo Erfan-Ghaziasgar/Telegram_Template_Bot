@@ -12,5 +12,5 @@ KEYS = SimpleNamespace(
 
 KEYBOARDS = SimpleNamespace(
     main=create_inline_keyboard([KEYS.random_connect, KEYS.settings, KEYS.help]),
-    settings=create_reply_keyboard([KEYS.language, KEYS.back]),
+    settings=create_inline_keyboard([KEYS.language, KEYS.back]),
 )
